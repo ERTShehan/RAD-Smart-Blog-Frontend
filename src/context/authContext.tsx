@@ -1,4 +1,3 @@
-
 import { createContext, useContext, useEffect, useState } from "react"
 import { getMyDetails } from "../services/auth"
 

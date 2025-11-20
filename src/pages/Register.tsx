@@ -23,6 +23,7 @@ export default function Register() {
       setLoading(true)
       const data: any = await register(username, password, firstname, lastname)
       alert(`Registration successful! Please Login.`)
+      console.log("Registration data:", data)
       navigate("/login")
     } catch (err: any) {
       console.error("Registration error:", err)
